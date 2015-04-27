@@ -2,19 +2,32 @@
     font-size: 70px;
 	font-family: Arial;
 	text-align: center;
-	color: yellow;
+	color: white;
    }
 
 #description{
 	font-size: 20px;
-	color: grey;
+	color: #ffb300;
 }
 
 #container {
 }
 
 #background {
-	background: blue; 
+	background-image: url(images/Blu-BKGD.jpg); 
+}
+
+#content {
+    background: 
+    color: white; 
+}
+
+body {
+    background-image: url(images/Blu-BKGD.jpg); 
+}
+
+footer {
+    color: white;
 }
 
 ul {
@@ -30,6 +43,6 @@ li {
 
 a {
     display: block;
-    width: 60px;
+    width: 100px;
     color: gray;
 }
