@@ -1,0 +1,35 @@
+#main-title {
+    font-size: 70px;
+	font-family: Arial;
+	text-align: center;
+	color: yellow;
+   }
+
+#description{
+	font-size: 20px;
+	color: grey;
+}
+
+#container {
+}
+
+#background {
+	background: blue; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+a {
+    display: block;
+    width: 60px;
+    color: gray;
+}
