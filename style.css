@@ -10,27 +10,16 @@ Template Name: sports-medicine
 
   /* -------------------------------------------------------
 
-    Description: Gymnastics Feature for Daily Bruin
+    Description: Sport Medicine Feature for Daily Bruin
     Version: 1.0
-    Author: Aein Hope and Christina Yang
+    Author: Anthony Rivera and Jennifer Tan
     Author URI: http://aeiny.com
 
   ------------------------------------------------------- */
-#description{
-  font-size: 20px;
-  color: #ffb300;
-}
-
-#content {
-    background: 
-    color: white; 
-}
-
-body {
-}
 
 footer {
-    color: white;
+    color: black;
+    text-align: center;
 }
 
 ul {
@@ -44,14 +33,14 @@ li {
     float: right;
 }
 
-  body {
+body {
     font-family: 'Droid Sans',sans-serif;
-  }
+}
 
-  article p {
-    font-family: 'Droid Sans',sans-serif;
-    font-size: 0.85rem !important;
-  }
+article p {
+  font-family: 'Droid Sans',sans-serif;
+ font-size: 0.85rem !important;
+}
 
   article h1 {
     font-family: 'Raleway',Helvetica,Arial,sans-serif;
@@ -75,7 +64,7 @@ li {
       float:right;
       display:inline-block;
       height: 215px;
-      margin-bottom: 7% !important;
+    margin-bottom: 7% !important;
   }
 
   article .pq-wrap-2 p{
@@ -91,14 +80,14 @@ li {
   }
   
   blockquote {
-      width: 100% !important;
+    width: 100% !important;
   }
    
   article .pq-wrap-2 cite {
       font-style: normal;
   }
 
-  article .pq-style-2 blockquote{
+  article .pq-style-2 blockquote {
       padding-top: 57px;
   }
   article .pq-style-2 blockquote:after {
@@ -325,39 +314,12 @@ li {
   max-width:auto;
   height:250px;}
 
-  .gym-sm {
-      float: right;
-      margin: 1.5em 0;
-  }
-
   .previous {
     text-align: left;
   }
 
   .next {
     text-align: right;
-  }
-
-  aside.audio {
-    max-width: 400px;
-    float: right;
-    background-color: rgba(0,0,0, 0.05);
-    padding: 0 1em;
-    margin-left: 1em;
-  }
-
-    aside.audio .credit {
-        font-style: italic;
-        float: right;
-    }
-
-  @media screen and (max-width: 1200px) {
-  .img-vert{
-    width: auto; 
-    max-height: 300px;}
-  .img-hori {
-  max-width:auto;
-  height:200px;}
   }
 
   .full-series {
@@ -371,14 +333,14 @@ li {
 
 <article>
   <div class= "full-series">
-    <?php 
-        if ( have_posts() ) {
-            while ( have_posts() ) {
-                the_post();
-                the_content();
-            } // end while
-        } // end if
-    ?>
+  <?php 
+    if ( have_posts() ) {
+      while ( have_posts() ) {
+        the_post();
+        the_content();
+      } // end while
+    } // end if
+  ?>
 </div>
 </article> 
 
